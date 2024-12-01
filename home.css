@@ -1,0 +1,117 @@
+body,html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  background-color: #0d0a0b;
+  background: linear-gradient(145deg, #55566a 0%, #131318 76%);
+}
+
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.nav ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 100px;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+.nav h2{
+  margin-right: 800px;
+  margin-top: 10px;
+
+}
+.nav ul a{
+  text-decoration: none;
+  color:black;
+}
+.nav ul button{
+  background-color: white;
+}
+
+.nav-section{
+  background-color: #FFCCEA;
+
+}
+.hero-section{
+  background-image: url(../images/donut\ 4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  width: 100%;
+  padding-top: 20px;
+  overflow: auto;
+}
+.hero-content{
+  gap: 10px;
+  margin: 100px; 
+  
+}
+.hero-content h2{
+  font-family: "Dancing Script", cursive;
+  font-size: clamp(2.5rem, 4vw, 6rem);
+  font-weight: 700;
+}
+.hero-content p{
+  font-size: 1.5rem;
+  
+}
+.hero-content a{
+  color: pink;
+  text-decoration: none;
+}
+.hero-section span{
+  color: grey;
+}
+.hero-content button{
+  background-color: black;
+}
+.service-section{
+  text-align: center;
+}
+.service-section h2{
+  font-size: 2rem;
+  margin-top: 20px;
+  color: white;
+ text-decoration: underline;
+ text-decoration-thickness: 5px;
+ text-decoration-color: #FFCCEA;
+
+}
+.service-content{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  gap: 50px;
+}
+.service img{
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+  
+}
+.service{
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin-left: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.service h3{
+  margin-bottom: 15px;
+  color: #0d0a0b;
+}
+.service p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+  margin-top: 10px;
+}
